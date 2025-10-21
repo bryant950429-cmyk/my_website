@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head><!--margin-top: 10px;     /* 上方外距 */
+margin-right: 20px;   /* 右方外距 */
+margin-bottom: 30px;  /* 下方外距 */
+margin-left: 40px;    /* 左方外距 */
+margin=0 表左右無距離-->
+  <style> 
+    body {
+      margin: 0;
+      display: flex; /* 讓子元素左右排列 */
+    }
+    .left {
+      width: 200px;
+      background-color: black;
+      color: white;
+      height: 100vh;
+      padding-top: 20px ;
+      padding-left: 20px;
+      padding-right: 20px;
+
+    }
+    .right {
+      flex: 1; /* 右邊自動填滿剩餘空間，flex:若有多個元素，按數字比例分配空間(如flex:1；flex:2即分到1/3&2/3)*/
+      background-color: white;
+      padding: 20px;
+      padding-top: 30px ;
+    }
+  </style>
+</head>
+<body>
+  <div class="left" >
+    <h1>我的個人網站</h1>
+    <a style="color:white" href="index 6.html"><h2>簡介(About me)</h2></a>
+    <br>
+    <br>
+    <a style="color:white" href="index 7.html"><h2>學歷(Education)</h2></a>
+    <br>
+    <br>
+    <a style="color:white" href="index 8.html"><h2>興趣(Interest)</h2></a>
+    <br>
+    <br>
+    <a style="color:white" href=""><h2>專長(Skills)</h2></a>
+  </div>
+  <div class="right">
+    
+    <h2>我目前已經熟練python一些基礎語法，能自己解開一些基礎的python考題；我在國中時曾自學過繪圖；此外，我對世界各國不同時期的軍事歷史非常精熟</h2>
+  </div>
+    
+</body>
+</html>
